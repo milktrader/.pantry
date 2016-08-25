@@ -1,0 +1,25 @@
+#!/bin/bash
+
+red=`tput setaf 1`
+green=`tput setaf 2`
+yellow=`tput setaf 3`
+blue=`tput setaf 4`
+magenta=`tput setaf 5`
+reset=`tput sgr0`
+
+echo ""
+echo "${yellow}0.3.11  ${red}.....  ${green}kevin"
+echo "${yellow}0.4-rc1 ${red}.....  ${green}wanda"
+echo "${yellow}0.4-rc4 ${red}.....  ${green}frida"
+echo "${yellow}0.4-0   ${red}.....  ${green}jason"
+echo "${yellow}0.4-1   ${red}.....  ${green}juan"
+echo "${yellow}0.5-rc3 ${red}.....  ${green}jack"
+echo "${yellow}0.4-2   ${red}.....  ${green}tulsa"  |
+echo "${yellow}0.4-3   ${red}.....  ${green}tyson"  |
+echo "${yellow}0.4-4   ${red}.....  ${green}frodo"  |
+echo "${yellow}0.4-5   ${red}.....  ${green}finn"   |
+echo "${yellow}0.4-6   ${red}.....  ${green}steve"  |
+echo "${yellow}0.4-7   ${red}.....  ${green}vivian" |
+echo "${yellow}0.4-8   ${red}.....  ${green}kate"   |
+echo "${yellow}0.4-9   ${red}.....  ${green}tyrone" |
+echo "${reset}"

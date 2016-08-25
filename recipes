@@ -1,0 +1,16 @@
+#!/bin/bash
+
+red=`tput setaf 1`
+green=`tput setaf 2`
+yellow=`tput setaf 3`
+blue=`tput setaf 4`
+magenta=`tput setaf 5`
+reset=`tput sgr0`
+
+echo ""
+echo "${magenta}recipe          kitchen                description"
+echo ""
+echo "${yellow}tacos    ${red}.....  ${green}(0.3.11 0.4-]   ${red}.....  ${yellow}MarketData testing"
+echo "${yellow}papcorn  ${red}.....  ${green}(0.4- ∞]        ${red}.....  ${yellow}Maching Learning suite" 
+echo "${yellow}papcorn  ${red}.....  ${green}(0.4- ∞]        ${red}.....  ${yellow}Maching Learning suite" |
+echo "${reset}"

@@ -1,0 +1,2 @@
+#using MarketData
+#foo = cl[1]

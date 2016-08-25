@@ -1,0 +1,15 @@
+1.  Download tar file foo
+2.  Move tar file foo to ~/.pantry/tar/
+3.  tar xvzf tar/foo
+4.  cd foo 
+5.  make
+6.  sudo make install (unfortuneately llvm compiles here, takes for eva!)
+7.  mv foo/ julia/
+8.  mkdir foo
+9.  mv julia/ foo/
+10. cd foo
+11. cd julia
+12. mv julia clever_new_name
+13. export PATH="$HOME/.pantry/julia-0.5rc3/julia:$PATH"
+14. source git/dotfiles/bash/env
+15. add to list of chefs

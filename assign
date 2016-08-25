@@ -1,0 +1,24 @@
+#!/bin/bash
+
+red=`tput setaf 1`
+green=`tput setaf 2`
+yellow=`tput setaf 3`
+blue=`tput setaf 4`
+magenta=`tput setaf 5`
+reset=`tput sgr0`
+
+echo "${yellow}One second while we see if we can get ${green}$1 ${yellow}to cook up some ${magenta}$2${reset}"
+echo ""
+
+export JULIA_PKGDIR=$HOME/.pantry/shelf
+
+if [ "$1" = "frida" ]; then
+  $1 --load $2
+elif [ "$1" = "wanda" ]; then
+  $1 --load $2
+elif [ "$1" = "kevin" ]; then
+  $1 --load $2
+else
+  echo "${red}$1 ${yellow}is not available to cook today, sorry.${reset}"
+  echo ""
+fi
